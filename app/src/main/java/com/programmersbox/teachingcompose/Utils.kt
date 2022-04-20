@@ -1,8 +1,5 @@
 package com.programmersbox.teachingcompose
 
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import kotlin.random.Random
 
@@ -11,14 +8,16 @@ sealed class Screen(val route: String, val name: String) {
     object StateScreen : Screen("state", "State")
     object ModifierScreen : Screen("modifier", "Modifiers")
     object SideEffectsScreen : Screen("sideeffects", "Side Effects")
-    object AnimationScreen : Screen("animation", "Animation Effects")
+    object AnimationScreen : Screen("animation", "Animation")
+    object OtherScreen : Screen("other", "Other")
 
     companion object {
         val items = arrayOf(
             StateScreen,
             ModifierScreen,
             SideEffectsScreen,
-            AnimationScreen
+            AnimationScreen,
+            OtherScreen
         )
     }
 }

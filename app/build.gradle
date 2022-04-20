@@ -62,7 +62,7 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxkotlin:2.4.0"
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
     implementation "androidx.compose.runtime:runtime-rxjava2:$compose_version"
-    implementation "io.coil-kt:coil-compose:1.4.0"
+    implementation "io.coil-kt:coil-compose:2.0.0-rc03"
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1'
     implementation "com.google.accompanist:accompanist-permissions:0.23.1"
     def nav_version = "2.4.2"
